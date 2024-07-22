@@ -8,7 +8,7 @@ click on the link to see :- ([Open in Youtube]())
 # Screenshot
 
 Rainbow-Spiral
-![screenshot](circularDesign.png)
+![screenshot](RainbowSpiral.png)
 
 
 
@@ -17,24 +17,6 @@ Alternating colors: The spiral pattern features alternating red and yellow color
 Intricate design: The spiral shape is formed by moving the turtle forward and turning it right by 151 degrees in each iteration, resulting in a intricate and complex pattern.
 Dynamic movement: The turtle moves forward and turns right in each iteration, creating a sense of dynamic movement and energy.
 
-# Code 
-import turtle
-t = turtle.Turtle()
-t.pensize(2)
-turtle.tracer(2)
-color = ['red','yellow']
-turtle.bgcolor('black')
-for i in range(650):
-    t.color(color[i%2])
-    t.up()
-    t.fd(i)
-    t.down()
-    t.rt(151)
-    for j in range(5):
-        t.fd(j*5)
-        t.lt(280)
-
-turtle.done()
 
 # Run
 To run this code, save it to a file with a .py extension (e.g., rainbow_spiral.py) and execute it using Python (e.g., python rainbow_spiral.py). This will launch a window displaying the Rainbow Spiral pattern.
