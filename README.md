@@ -3,7 +3,7 @@
 This code uses the Python Turtle library to create a beautiful, intricate spiral pattern with alternating red and yellow colors. The spiral shape is formed by moving the turtle forward and turning it right by 151 degrees in each iteration. The color of the turtle changes between red and yellow for every iteration, creating a striking rainbow effect.
 
 # Tutorial is available on youtube channel 
-click on the link to see :- ([Open in Youtube](RainbowSpiral))
+click on the link to see :- ([Open in Youtube](https://youtu.be/vCiRzWEvuuI))
 
 # Screenshot
 
